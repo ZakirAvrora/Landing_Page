@@ -121,3 +121,82 @@ ul {
   text-align: center;
   color: #676b73;
 }
+
+.quote {
+  background: #e5e7eb;
+  display: flex;
+  justify-content: center;
+}
+
+.quote-text {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 200px;
+}
+
+.quote-text p {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.quote-text span {
+  font-size: 24px;
+  font-weight: 900;
+  align-self: flex-end;
+}
+
+.action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action .box {
+  color: #f9faf8;
+  background-color: #3882f6;
+  flex-basis: 860px;
+  border-radius: 8px;
+  margin: 80px 40px;
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.action .box .message {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.action .box .message .title {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.action .box .message .body {
+  color: #dbdbdb;
+}
+
+.action .box button {
+  background-color: #3882f6;
+  border: 2px solid #ffffff;
+  color: #f9faf8;
+  font-weight: 900;
+  margin: 0;
+  border: 0;
+  padding: 8px 16px;
+  border-radius: 8px;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  color: #f9faf8;
+}
